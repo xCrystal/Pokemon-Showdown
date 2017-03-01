@@ -42,19 +42,38 @@ exports.BattleFormatsData = {
 	},
 	venusaur: {
 		randomSet1: {
-			chance: 12,
-			item: ["leftovers", "berry", ""],
-			baseMove1: "tackle", baseMove2: "growl",
-			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
-			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+			chance: 5,
+			item: ["leftovers"],
+			baseMove1: "leechseed", baseMove2: "synthesis",
+			fillerMoves1: ["razorleaf", "razorleaf", "hiddenpowerice"],
+			fillerMoves3: ["sleeppowder", "sleeppowder", "sleeppowder", "reflect", "lightscreen"],
 		},
 		randomSet2: {
+			chance: 8,
+			item: ["leftovers"],
+			fillerMoves1: ["razorleaf", "gigadrain", "gigadrain"],
+			fillerMoves2: ["hiddenpowerice", "hiddenpowerice", "hiddenpowerfire", "bodyslam"],
+			fillerMoves3: ["sleeppowder", "synthesis", "leechseed", "reflect", "lightscreen"],
+			fillerMoves4: ["sleeppowder", "synthesis", "leechseed"],
+
+		randomSet3: {
+			chance: 11,
+			item: ["leftovers"],
+			baseMove1: "swordsdance", baseMove2: "gigadrain", baseMove3: "bodyslam",
+			fillerMoves1: ["sleeppowder", "sleeppowder", "synthesis", "ancientpower"],
+		},
+		randomSet4: {
+			chance: 14,
+			item: ["leftovers"],
+			baseMove1: "solarbeam", baseMove2: "sunnyday", baseMove3: "hiddenpowerfire",
+			fillerMoves1: ["sleeppowder", "synthesis", "synthesis"],
+		},
+		randomSet5: {
 			chance: 16,
-			item: ["charcoal"],
-			baseMove1: "earthquake",
-			fillerMoves1: ["psychic", "psychic", "icebeam"],
-			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
-			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+			item: ["leftovers"],
+			baseMove1: "growth", baseMove2: "gigadrain",
+			fillerMoves1: ["hiddenpowerice", "hiddenpowerice", "hiddenpowerice", "hiddenpowerfire", "hiddenpowerwater"],
+			fillerMoves2: ["sleeppowder", "sleeppowder", "synthesis"],
 		},
 		eventPokemon: [
 			{"generation": 2, "level": 40, "gender": "M", "shiny": true, "moves":["poisonpowder", "sleeppowder", "razorleaf", "sweetscent"]},
@@ -3168,7 +3187,7 @@ exports.BattleFormatsData = {
 			baseMove1: "thunderbolt", baseMove2: "drillpeck",
 			fillerMoves1: ["hiddenpowerice", "hiddenpowerice", "hiddenpowerwater", "hiddenpowerwater", "hiddenpowergrass"],
 			fillerMoves2: ["thunderwave", "thunderwave", "thunderwave", "toxic", "lightscreen", "reflect", "thunder", "rest"],
-		},		
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 50, "shiny": true, "moves":["thunderwave", "agility", "detect", "drillpeck"]},
 		],

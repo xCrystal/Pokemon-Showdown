@@ -630,8 +630,9 @@ exports.BattleScripts = {
 			randomSetNumber = this.random(15);
 			if (randomSetNumber < template.randomSet1.chance) set = template.randomSet1;
 			else if (randomSetNumber < template.randomSet2.chance) set = template.randomSet2;
-			else if (template.randomSet3 && randomSetNumber < template.randomSet1.chance) set = template.randomSet3;
-			else if (template.randomSet4) set = template.randomSet4;
+			else if (template.randomSet3 && randomSetNumber < template.randomSet3.chance) set = template.randomSet3;
+			else if (template.randomSet4 && randomSetNumber < template.randomSet4.chance) set = template.randomSet4;
+			else if (template.randomSet5) set = template.randomSet5;
 		}
 
 		// Add the base moves (between 0 and 4) of the chosen set
