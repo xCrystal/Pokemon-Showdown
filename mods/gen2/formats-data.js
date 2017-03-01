@@ -2,111 +2,477 @@
 
 exports.BattleFormatsData = {
 	bulbasaur: {
+		randomSet1: {
+			chance: 4,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "growl", "ancientpower"]},
 		],
 		tier: "LC",
 	},
 	ivysaur: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	venusaur: {
-		randomBattleMoves: ["synthesis", "sleeppowder", "swordsdance", "bodyslam", "gigadrain", "reflect", "leechseed"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 40, "gender": "M", "shiny": true, "moves":["poisonpowder", "sleeppowder", "razorleaf", "sweetscent"]},
 		],
 		tier: "BL",
 	},
 	charmander: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["scratch", "growl", "crunch"]},
 		],
 		tier: "LC",
 	},
 	charmeleon: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	charizard: {
-		randomBattleMoves: ["bellydrum", "fireblast", "rockslide", "earthquake"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 40, "gender": "M", "shiny": true, "moves":["rage", "scaryface", "flamethrower", "wingattack"]},
 		],
 		tier: "BL",
 	},
 	squirtle: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "tailwhip", "zapcannon"]},
 		],
 		tier: "LC",
 	},
 	wartortle: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	blastoise: {
-		randomBattleMoves: ["surf", "rest", "sleeptalk", "icebeam", "zapcannon", "reflect", "rapidspin"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 40, "gender": "M", "shiny": true, "moves":["watergun", "bite", "rapidspin", "protect"]},
 		],
 		tier: "UU",
 	},
 	caterpie: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	metapod: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	butterfree: {
-		randomBattleMoves: ["stunspore", "sleeppowder", "psychic", "nightmare", "gigadrain"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	weedle: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	kakuna: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	beedrill: {
-		randomBattleMoves: ["twineedle", "hiddenpowerrock", "swordsdance", "hiddenpowerground", "sludgebomb", "agility", "return"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	pidgey: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	pidgeotto: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	pidgeot: {
-		randomBattleMoves: ["return", "hiddenpowerflying", "steelwing", "mirrormove", "wingattack", "hiddenpowerground", "toxic"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	rattata: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	raticate: {
-		randomBattleMoves: ["superfang", "substitute", "mimic", "bodyslam"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	spearow: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["peck", "growl", "sonicboom"]},
 		],
 		tier: "LC",
 	},
 	fearow: {
-		randomBattleMoves: ["rest", "sleeptalk", "doubleedge", "drillpeck", "hiddenpowerground", "hiddenpowerfighting", "return", "triattack"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 1, "level": 20, "moves":["growl", "leer", "furyattack", "payday"]},
 		],
 		tier: "NU",
 	},
 	ekans: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	arbok: {
-		randomBattleMoves: ["sludgebomb", "gigadrain", "earthquake", "screech", "substitute", "glare"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	pichu: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["thundershock", "charm", "dizzypunch"]},
 			{"generation": 2, "level": 5, "moves":["thundershock", "charm", "petaldance"]},
@@ -116,7 +482,21 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	pikachu: {
-		randomBattleMoves: ["thunderbolt", "surf", "hiddenpowerfire", "sing"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 1, "level": 5, "moves":["surf"]},
 			{"generation": 1, "level": 5, "moves":["fly"]},
@@ -125,17 +505,75 @@ exports.BattleFormatsData = {
 		tier: "NFE",
 	},
 	raichu: {
-		randomBattleMoves: ["thunder", "surf", "raindance", "thunderwave", "substitute"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	sandshrew: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	sandslash: {
-		randomBattleMoves: ["swordsdance", "earthquake", "rockslide", "substitute"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	nidoranf: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["growl", "tackle", "lovelykiss"]},
 			{"generation": 2, "level": 5, "moves":["growl", "tackle", "moonlight"]},
@@ -144,13 +582,57 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	nidorina: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	nidoqueen: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	nidoranm: {
-		randomBattleMoves: ["thunder", "lovelykiss", "curse", "bodyslam"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["leer", "tackle", "lovelykiss"]},
 			{"generation": 2, "level": 5, "moves":["leer", "tackle", "morningsun"]},
@@ -159,13 +641,57 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	nidorino: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	nidoking: {
-		randomBattleMoves: ["earthquake", "icebeam", "lovelykiss", "thunder"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "OU",
 	},
 	cleffa: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["pound", "charm", "encore", "petaldance"]},
 			{"generation": 2, "level": 5, "moves":["pound", "charm", "encore", "scaryface"]},
@@ -175,20 +701,93 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	clefairy: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	clefable: {
-		randomBattleMoves: ["return", "shadowball", "moonlight", "bellydrum", "icebeam", "thunderbolt", "charm", "encore", "fireblast"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "BL",
 	},
 	vulpix: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	ninetales: {
-		randomBattleMoves: ["hypnosis", "toxic", "roar", "fireblast"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	igglybuff: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["sing", "charm", "defensecurl", "mimic"]},
 			{"generation": 2, "level": 5, "moves":["sing", "charm", "defensecurl", "petaldance"]},
@@ -198,74 +797,336 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	jigglypuff: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	wigglytuff: {
-		randomBattleMoves: ["doubleedge", "icebeam", "thunderbolt", "sing", "counter", "thunderwave"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	zubat: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["leechlife", "flail"]},
 		],
 		tier: "LC",
 	},
 	golbat: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	crobat: {
-		randomBattleMoves: ["wingattack", "hiddenpowerfighting", "hiddenpowerground", "toxic", "return", "confuseray", "meanlook", "screech", "fly"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	oddish: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["absorb", "leechseed"]},
 		],
 		tier: "LC",
 	},
 	gloom: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	vileplume: {
-		randomBattleMoves: ["sleeppowder", "leechseed", "sludgebomb", "moonlight"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	bellossom: {
-		randomBattleMoves: ["sleeppowder", "stunspore", "razorleaf", "moonlight", "sludgebomb", "swordsdance", "hiddenpowerground"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	paras: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["scratch", "synthesis"]},
 		],
 		tier: "LC",
 	},
 	parasect: {
-		randomBattleMoves: ["spore", "hiddenpowerbug", "hiddenpowerice", "hiddenpowerfire", "growth", "gigadrain", "stunspore", "swordsdance", "return", "sludgebomb"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	venonat: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	venomoth: {
-		randomBattleMoves: ["curse", "sleeppowder", "stunspore", "hiddenpowerbug", "sludgebomb"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	diglett: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	dugtrio: {
-		randomBattleMoves: ["earthquake", "rockslide", "beatup", "substitute", "sludgebomb"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	meowth: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	persian: {
-		randomBattleMoves: ["bodyslam", "hypnosis", "shadowball", "return", "screech", "thunderbolt", "zapcannon", "swagger", "substitute", "psychup"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	psyduck: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 1, "level": 15, "moves":["scratch", "amnesia"]},
 			{"generation": 2, "level": 5, "moves":["scratch", "tailwhip", "petaldance"]},
@@ -274,24 +1135,111 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	golduck: {
-		randomBattleMoves: ["crosschop", "hypnosis", "surf", "hydropump", "hiddenpowerelectric", "icebeam"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	mankey: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	primeape: {
-		randomBattleMoves: ["crosschop", "rockslide", "hiddenpowerbug", "meditate", "substitute"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	growlithe: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	arcanine: {
-		randomBattleMoves: ["fireblast", "flamethrower", "bodyslam", "hiddenpowerfighting", "rest", "sleeptalk"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	poliwag: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["bubble", "growth"]},
 			{"generation": 2, "level": 5, "moves":["bubble", "lovelykiss"]},
@@ -300,30 +1248,132 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	poliwhirl: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	poliwrath: {
-		randomBattleMoves: ["bellydrum", "lovelykiss", "hydropump", "bodyslam"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	politoed: {
-		randomBattleMoves: ["bellydrum", "lovelykiss", "surf", "bodyslam"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	abra: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["teleport", "foresight"]},
 		],
 		tier: "LC",
 	},
 	kadabra: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	alakazam: {
-		randomBattleMoves: ["recover", "thunderwave", "firepunch", "psychic"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "BL",
 	},
 	machop: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["lowkick", "leer", "falseswipe"]},
 			{"generation": 2, "level": 5, "moves":["lowkick", "leer", "thrash"]},
@@ -331,13 +1381,57 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	machoke: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	machamp: {
-		randomBattleMoves: ["crosschop", "curse", "rockslide", "hiddenpowerbug", "fireblast"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "OU",
 	},
 	bellsprout: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["vinewhip", "lovelykiss"]},
 			{"generation": 2, "level": 5, "moves":["vinewhip", "sweetkiss"]},
@@ -345,71 +1439,288 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	weepinbell: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	victreebel: {
-		randomBattleMoves: ["sleeppowder", "growth", "gigadrain", "sludgebomb", "hiddenpowerice"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	tentacool: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["poisonsting", "confuseray"]},
 		],
 		tier: "LC",
 	},
 	tentacruel: {
-		randomBattleMoves: ["swordsdance", "substitute", "surf", "sludgebomb"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "BL",
 	},
 	geodude: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "rapidspin"]},
 		],
 		tier: "LC",
 	},
 	graveler: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	golem: {
-		randomBattleMoves: ["rockslide", "earthquake", "explosion", "counter", "curse"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "BL",
 	},
 	ponyta: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "growl", "lowkick"]},
 		],
 		tier: "LC",
 	},
 	rapidash: {
-		randomBattleMoves: ["fireblast", "hypnosis", "hiddenpowerground", "hiddenpowerrock", "irontail", "curse", "return"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 1, "level": 40, "moves":["ember", "firespin", "stomp", "payday"]},
 		],
 		tier: "NU",
 	},
 	slowpoke: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	slowbro: {
-		randomBattleMoves: ["surf", "psychic", "thunderwave", "rest"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	slowking: {
-		randomBattleMoves: ["surf", "psychic", "thunderwave", "rest"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	magnemite: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "agility"]},
 		],
 		tier: "LC",
 	},
 	magneton: {
-		randomBattleMoves: ["thunderbolt", "thunderwave", "hiddenpowerwater", "substitute"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	farfetchd: {
-		randomBattleMoves: ["swordsdance", "hiddenpowerflying", "agility", "batonpass", "return", "swagger", "psychup", "hiddenpowerground", "gust"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["batonpass", "swordsdance", "agility", "slash"]},
 			{"generation": 2, "level": 5, "moves":["peck", "furycutter"]},
@@ -417,110 +1728,459 @@ exports.BattleFormatsData = {
 		tier: "NU",
 	},
 	doduo: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["peck", "growl", "lowkick"]},
 		],
 		tier: "LC",
 	},
 	dodrio: {
-		randomBattleMoves: ["doubleedge", "drillpeck", "rest", "sleeptalk"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	seel: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["headbutt", "growl", "flail"]},
 		],
 		tier: "LC",
 	},
 	dewgong: {
-		randomBattleMoves: ["surf", "icebeam", "encore", "rest", "sleeptalk"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	grimer: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	muk: {
-		randomBattleMoves: ["fireblast", "explosion", "curse", "gigadrain", "sludgebomb"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "BL",
 	},
 	shellder: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	cloyster: {
-		randomBattleMoves: ["explosion", "rapidspin", "surf", "spikes", "toxic", "icebeam", "rest"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "OU",
 	},
 	gastly: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	haunter: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	gengar: {
-		randomBattleMoves: ["thunder", "icepunch", "destinybond", "explosion", "dynamicpunch", "hypnosis", "perishsong", "meanlook", "protect"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "OU",
 	},
 	onix: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "screech", "sharpen"]},
 		],
 		tier: "LC",
 	},
 	steelix: {
-		randomBattleMoves: ["roar", "curse", "explosion", "bodyslam", "rockslide", "earthquake"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "OU",
 	},
 	drowzee: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["pound", "hypnosis", "amnesia"]},
 		],
 		tier: "LC",
 	},
 	hypno: {
-		randomBattleMoves: ["psychic", "thunderpunch", "lightscreen", "reflect", "icepunch", "thunderwave"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	krabby: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["bubble", "leer", "metalclaw"]},
 		],
 		tier: "LC",
 	},
 	kingler: {
-		randomBattleMoves: ["swordsdance", "doubleedge", "rest", "sleeptalk", "substitute", "surf", "crabhammer", "hiddenpowerfighting", "hiddenpowerground", "hiddenpowerrock"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	voltorb: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "agility"]},
 		],
 		tier: "LC",
 	},
 	electrode: {
-		randomBattleMoves: ["thunderbolt", "explosion", "rest", "hiddenpowerice", "hiddenpowergrass", "toxic", "thunderwave", "lightscreen", "reflect", "hiddenpowerwater"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	exeggcute: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["barrage", "hypnosis", "sweetscent"]},
 		],
 		tier: "LC",
 	},
 	exeggutor: {
-		randomBattleMoves: ["explosion", "psychic", "gigadrain", "hiddenpowerfire", "sleeppowder", "stunspore"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "OU",
 	},
 	cubone: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["growl", "tailwhip", "furyattack"]},
 		],
 		tier: "LC",
 	},
 	marowak: {
-		randomBattleMoves: ["earthquake", "rockslide", "hiddenpowerbug", "rest", "swordsdance"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "OU",
 	},
 	tyrogue: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "gender": "M", "moves":["tackle", "rage"]},
 			{"generation": 2, "level": 5, "gender": "M", "moves":["tackle", "dizzypunch"]},
@@ -528,114 +2188,444 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	hitmonlee: {
-		randomBattleMoves: ["highjumpkick", "meditate", "return", "hiddenpowerghost", "hiddenpowerrock", "hiddenpowerbug"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	hitmonchan: {
-		randomBattleMoves: ["highjumpkick", "counter", "curse", "return", "hiddenpowerghost"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	hitmontop: {
-		randomBattleMoves: ["highjumpkick", "curse", "rest", "hiddenpowerghost", "return"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	lickitung: {
-		randomBattleMoves: ["thunderbolt", "icebeam", "rest", "sleeptalk", "swordsdance", "bodyslam"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["lick", "doubleslap"]},
 		],
 		tier: "NU",
 	},
 	koffing: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	weezing: {
-		randomBattleMoves: ["thunder", "fireblast", "sludgebomb", "explosion"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	rhyhorn: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	rhydon: {
-		randomBattleMoves: ["earthquake", "rockslide", "curse", "roar"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "BL",
 	},
 	chansey: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "gender": "F", "moves":["pound", "sweetscent"]},
 		],
 		tier: "UU",
 	},
 	blissey: {
-		randomBattleMoves: ["softboiled", "healbell", "icebeam", "lightscreen", "flamethrower", "sing", "toxic"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "OU",
 	},
 	tangela: {
-		randomBattleMoves: ["sleeppowder", "stunspore", "synthesis", "reflect", "gigadrain"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["constrict", "sleeppowder", "synthesis"]},
 		],
 		tier: "NU",
 	},
 	kangaskhan: {
-		randomBattleMoves: ["curse", "roar", "bodyslam", "return", "earthquake", "attract", "substitute", "rest"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "gender": "F", "moves":["cometpunch", "feintattack"]},
 		],
 		tier: "BL",
 	},
 	horsea: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["bubble", "haze"]},
 		],
 		tier: "LC",
 	},
 	seadra: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	kingdra: {
-		randomBattleMoves: ["rest", "sleeptalk", "doubleedge", "surf"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "BL",
 	},
 	goldeen: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["peck", "tailwhip", "swordsdance"]},
 		],
 		tier: "LC",
 	},
 	seaking: {
-		randomBattleMoves: ["swordsdance", "agility", "hydropump", "doubleedge", "hiddenpowerground"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	staryu: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "harden", "twister"]},
 		],
 		tier: "LC",
 	},
 	starmie: {
-		randomBattleMoves: ["recover", "rapidspin", "psychic", "surf", "reflect", "thunderwave"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "OU",
 	},
 	mrmime: {
-		randomBattleMoves: ["psychic", "thunderbolt", "encore", "lightscreen", "hypnosis"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["barrier", "mindreader"]},
 		],
 		tier: "NU",
 	},
 	scyther: {
-		randomBattleMoves: ["hiddenpowerbug", "hiddenpowerrock", "return", "wingattack", "swordsdance", "batonpass"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["quickattack", "leer", "sonicboom"]},
 		],
 		tier: "UU",
 	},
 	scizor: {
-		randomBattleMoves: ["swordsdance", "agility", "batonpass", "steelwing", "hiddenpowerbug", "substitute", "hiddenpowerrock"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "BL",
 	},
 	smoochum: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "gender": "F", "moves":["pound", "lick", "metronome"]},
 			{"generation": 2, "level": 5, "gender": "F", "moves":["pound", "lick", "petaldance"]},
@@ -644,10 +2634,39 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	jynx: {
-		randomBattleMoves: ["meanlook", "perishsong", "protect", "icebeam", "substitute", "lovelykiss", "nightmare", "psychic"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "BL",
 	},
 	elekid: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["quickattack", "leer", "dizzypunch"]},
 			{"generation": 2, "level": 5, "moves":["quickattack", "leer", "pursuit"]},
@@ -655,10 +2674,39 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	electabuzz: {
-		randomBattleMoves: ["thunderbolt", "icepunch", "crosschop", "firepunch"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	magby: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["ember", "feintattack"]},
 			{"generation": 2, "level": 5, "moves":["ember", "dizzypunch"]},
@@ -666,24 +2714,81 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	magmar: {
-		randomBattleMoves: ["fireblast", "crosschop", "thunderpunch", "hiddenpowerwater"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	pinsir: {
-		randomBattleMoves: ["swordsdance", "bodyslam", "submission", "hiddenpowerbug", "rest", "sleeptalk"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["vicegrip", "rockthrow"]},
 		],
 		tier: "UU",
 	},
 	tauros: {
-		randomBattleMoves: ["doubleedge", "earthquake", "rest", "sleeptalk"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "gender": "M", "moves":["tackle", "tailwhip", "quickattack"]},
 		],
 		tier: "BL",
 	},
 	magikarp: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 1, "level": 5, "moves":["dragonrage"]},
 			{"generation": 2, "level": 5, "moves":["splash", "bubble"]},
@@ -692,11 +2797,39 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	gyarados: {
-		randomBattleMoves: ["doubleedge", "hydropump", "zapcannon", "hiddenpowerground"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	lapras: {
-		randomBattleMoves: ["icebeam", "thunderbolt", "rest", "sleeptalk", "confuseray", "thunder", "surf", "sing", "reflect"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["watergun", "growl", "sing", "bite"]},
 			{"generation": 2, "level": 5, "moves":["watergun", "growl", "sing", "futuresight"]},
@@ -704,74 +2837,288 @@ exports.BattleFormatsData = {
 		tier: "BL",
 	},
 	ditto: {
-		randomBattleMoves: ["transform"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	eevee: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "shiny": true, "moves":["tackle", "tailwhip", "growth"]},
 		],
 		tier: "LC",
 	},
 	vaporeon: {
-		randomBattleMoves: ["surf", "hydropump", "growth", "rest", "sleeptalk", "acidarmor"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "OU",
 	},
 	jolteon: {
-		randomBattleMoves: ["thunderbolt", "hiddenpowerwater", "agility", "substitute", "batonpass"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "OU",
 	},
 	flareon: {
-		randomBattleMoves: ["fireblast", "shadowball", "return", "hiddenpowerrock", "hiddenpowerground", "hiddenpowerfighting"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	espeon: {
-		randomBattleMoves: ["psychic", "growth", "batonpass", "substitute", "morningsun", "bite", "hiddenpowerfire"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "BL",
 	},
 	umbreon: {
-		randomBattleMoves: ["charm", "pursuit", "rest", "toxic", "meanlook", "batonpass", "confuseray"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "OU",
 	},
 	porygon: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "shiny": true, "moves":["tackle", "conversion", "barrier"]},
 		],
 		tier: "LC",
 	},
 	porygon2: {
-		randomBattleMoves: ["recover", "return", "curse", "icebeam"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "BL",
 	},
 	omanyte: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "shiny": true, "moves":["constrict", "withdraw", "rockthrow"]},
 		],
 		tier: "LC",
 	},
 	omastar: {
-		randomBattleMoves: ["surf", "rest", "haze", "reflect", "sleeptalk", "hydropump", "icebeam"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	kabuto: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "shiny": true, "moves":["scratch", "harden", "rockthrow"]},
 		],
 		tier: "LC",
 	},
 	kabutops: {
-		randomBattleMoves: ["swordsdance", "ancientpower", "hydropump", "hiddenpowerground", "hiddenpowerbug"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	aerodactyl: {
-		randomBattleMoves: ["earthquake", "hiddenpowerrock", "ancientpower", "wingattack", "hiddenpowerflying", "fireblast", "curse", "substitute", "reflect", "rest", "whirlwind"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "shiny": true, "moves":["wingattack", "rockthrow"]},
 		],
 		tier: "BL",
 	},
 	snorlax: {
-		randomBattleMoves: ["doubleedge", "bodyslam", "curse", "rest", "sleeptalk", "lovelykiss", "earthquake", "fireblast", "bellydrum", "return", "selfdestruct"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "lovelykiss"]},
 			{"generation": 2, "level": 5, "moves":["tackle", "splash"]},
@@ -780,27 +3127,84 @@ exports.BattleFormatsData = {
 		tier: "OU",
 	},
 	articuno: {
-		randomBattleMoves: ["rest", "sleeptalk", "icebeam", "toxic", "hiddenpowerelectric", "roar", "reflect"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 50, "shiny": true, "moves":["mist", "agility", "mindreader", "icebeam"]},
 		],
 		tier: "BL",
 	},
 	zapdos: {
-		randomBattleMoves: ["thunder", "thunderbolt", "hiddenpowerice", "hiddenpowerwater", "rest", "sleeptalk"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 50, "shiny": true, "moves":["thunderwave", "agility", "detect", "drillpeck"]},
 		],
 		tier: "OU",
 	},
 	moltres: {
-		randomBattleMoves: ["fireblast", "sunnyday", "hiddenpowergrass", "hiddenpowerwater", "doubleedge", "reflect", "rest", "sleeptalk"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 50, "shiny": true, "moves":["firespin", "agility", "endure", "flamethrower"]},
 		],
 		tier: "BL",
 	},
 	dratini: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["wrap", "leer", "hydropump"]},
 			{"generation": 2, "level": 15, "moves":["wrap", "thunder", "twister", "extremespeed"]},
@@ -808,21 +3212,78 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	dragonair: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	dragonite: {
-		randomBattleMoves: ["icebeam", "thunder", "dynamicpunch", "bodyslam", "rest", "haze", "doubleedge", "reflect"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "OU",
 	},
 	mewtwo: {
-		randomBattleMoves: ["curse", "recover", "submission", "thunderbolt", "psychic", "fireblast", "shadowball"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 70, "shiny": true, "moves":["psychup", "futuresight", "mist", "psychic"]},
 		],
 		tier: "Uber",
 	},
 	mew: {
-		randomBattleMoves: ["swordsdance", "submission", "rockslide", "shadowball", "softboiled"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 1, "level": 5, "moves":["pound"]},
 			{"generation": 2, "level": 5, "moves":["pound"]},
@@ -831,131 +3292,525 @@ exports.BattleFormatsData = {
 		tier: "Uber",
 	},
 	chikorita: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "growl", "petaldance"]},
 		],
 		tier: "LC",
 	},
 	bayleef: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	meganium: {
-		randomBattleMoves: ["razorleaf", "reflect", "lightscreen", "synthesis", "swordsdance", "bodyslam", "earthquake"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 40, "gender": "M", "shiny": true, "moves":["reflect", "poisonpowder", "synthesis", "bodyslam"]},
 		],
 		tier: "BL",
 	},
 	cyndaquil: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "leer", "doubleedge"]},
 		],
 		tier: "LC",
 	},
 	quilava: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	typhlosion: {
-		randomBattleMoves: ["fireblast", "thunderpunch", "earthquake", "hiddenpowerice", "hiddenpowergrass", "rest", "sleeptalk"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 40, "gender": "M", "shiny": true, "moves":["smokescreen", "ember", "quickattack", "flamewheel"]},
 		],
 		tier: "BL",
 	},
 	totodile: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["scratch", "leer", "submission"]},
 		],
 		tier: "LC",
 	},
 	croconaw: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	feraligatr: {
-		randomBattleMoves: ["hydropump", "earthquake", "rockslide", "ancientpower", "curse", "dynamicpunch", "icebeam", "crunch", "hiddenpowergrass"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 40, "gender": "M", "shiny": true, "moves":["watergun", "bite", "scaryface", "slash"]},
 		],
 		tier: "UU",
 	},
 	sentret: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "defensecurl", "dizzypunch"]},
 		],
 		tier: "LC",
 	},
 	furret: {
-		randomBattleMoves: ["doubleedge", "rest", "curse", "shadowball"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	hoothoot: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "growl", "nightshade"]},
 		],
 		tier: "LC",
 	},
 	noctowl: {
-		randomBattleMoves: ["hypnosis", "reflect", "nightshade", "rest", "curse", "return", "hiddenpowerflying"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	ledyba: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "barrier"]},
 		],
 		tier: "LC",
 	},
 	ledian: {
-		randomBattleMoves: ["batonpass", "agility", "lightscreen", "reflect"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	spinarak: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["poisonsting", "stringshot", "growth"]},
 		],
 		tier: "LC",
 	},
 	ariados: {
-		randomBattleMoves: ["spiderweb", "agility", "protect", "disable", "batonpass", "sludgebomb", "hiddenpowerbug", "screech"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	chinchou: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["bubble", "thunderwave", "supersonic", "lightscreen"]},
 		],
 		tier: "LC",
 	},
 	lanturn: {
-		randomBattleMoves: ["surf", "thunderbolt", "thunder", "rest", "sleeptalk", "thunderwave", "confuseray"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	togepi: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	togetic: {
-		randomBattleMoves: ["charm", "encore", "fireblast", "safeguard", "psychic", "sunnyday", "solarbeam"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	natu: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["peck", "leer", "safeguard"]},
 		],
 		tier: "LC",
 	},
 	xatu: {
-		randomBattleMoves: ["psychic", "drillpeck", "confuseray", "nightshade", "gigadrain", "feintattack", "haze"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	mareep: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	flaaffy: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	ampharos: {
-		randomBattleMoves: ["thunderbolt", "firepunch", "thunderwave", "dynamicpunch", "rest", "sleeptalk"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	marill: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "defensecurl", "dizzypunch"]},
 			{"generation": 2, "level": 5, "moves":["tackle", "defensecurl", "hydropump"]},
@@ -964,48 +3819,177 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	azumarill: {
-		randomBattleMoves: ["curse", "return", "hydropump", "surf", "hiddenpowerghost", "bellydrum", "doubleedge"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	sudowoodo: {
-		randomBattleMoves: ["curse", "rockslide", "earthquake", "selfdestruct", "thunderpunch", "firepunch", "icepunch"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["rockthrow", "mimic", "substitute"]},
 		],
 		tier: "NU",
 	},
 	hoppip: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["splash", "synthesis", "agility"]},
 		],
 		tier: "LC",
 	},
 	skiploom: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	jumpluff: {
-		randomBattleMoves: ["sleeppowder", "stunspore", "leechseed", "encore"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	aipom: {
-		randomBattleMoves: ["agility", "batonpass", "return", "counter"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["scratch", "tailwhip", "mimic"]},
 		],
 		tier: "NU",
 	},
 	sunkern: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["absorb", "growth", "splash"]},
 		],
 		tier: "LC",
 	},
 	sunflora: {
-		randomBattleMoves: ["growth", "razorleaf", "gigadrain", "hiddenpowerwater", "hiddenpowerfire", "hiddenpowerice", "synthesis", "curse", "sludgebomb", "return", "hiddenpowerghost", "hiddenpowerrock", "hiddenpowerground", "sunnyday", "solarbeam"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	yanma: {
-		randomBattleMoves: ["curse", "screech", "hiddenpowerbug", "wingattack", "gigadrain"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "foresight", "steelwing"]},
 			{"generation": 2, "level": 5, "moves":["tackle", "foresight", "sweetkiss"]},
@@ -1013,6 +3997,21 @@ exports.BattleFormatsData = {
 		tier: "NU",
 	},
 	wooper: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["watergun", "tailwhip", "bellydrum"]},
 			{"generation": 2, "level": 5, "moves":["watergun", "tailwhip", "scaryface"]},
@@ -1020,50 +4019,177 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	quagsire: {
-		randomBattleMoves: ["earthquake", "hiddenpowerrock", "bellydrum", "rest"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	murkrow: {
-		randomBattleMoves: ["drillpeck", "feintattack", "pursuit", "nightshade", "toxic"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["peck", "beatup"]},
 		],
 		tier: "NU",
 	},
 	misdreavus: {
-		randomBattleMoves: ["meanlook", "perishsong", "protect", "thunder", "confuseray", "attract"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["growl", "hypnosis"]},
 		],
 		tier: "OU",
 	},
 	unown: {
-		randomBattleMoves: ["hiddenpowerpsychic"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	wobbuffet: {
-		randomBattleMoves: ["counter", "mirrorcoat", "destinybond", "safeguard"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["mirrorcoat", "safeguard", "destinybond", "mimic"]},
 		],
 		tier: "NU",
 	},
 	girafarig: {
-		randomBattleMoves: ["agility", "batonpass", "thunder", "psychic", "earthquake", "return", "crunch"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	pineco: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "protect", "substitute"]},
 		],
 		tier: "LC",
 	},
 	forretress: {
-		randomBattleMoves: ["spikes", "hiddenpowerbug", "rapidspin", "toxic", "explosion"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "OU",
 	},
 	dunsparce: {
-		randomBattleMoves: ["glare", "swagger", "psychup", "headbutt", "sunnyday", "solarbeam", "flamethrower", "return", "curse", "rest", "sleeptalk", "rockslide", "irontail"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["rage", "defensecurl", "furyattack"]},
 			{"generation": 2, "level": 5, "moves":["rage", "defensecurl", "horndrill"]},
@@ -1071,79 +4197,294 @@ exports.BattleFormatsData = {
 		tier: "NU",
 	},
 	gligar: {
-		randomBattleMoves: ["screech", "earthquake", "wingattack", "counter", "rest", "protect"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["earthquake", "poisonsting", "counter", "wingattack"]},
 		],
 		tier: "UU",
 	},
 	snubbull: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "scaryface", "tailwhip", "lovelykiss"]},
 		],
 		tier: "LC",
 	},
 	granbull: {
-		randomBattleMoves: ["rest", "sleeptalk", "return", "healbell"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	qwilfish: {
-		randomBattleMoves: ["curse", "sludgebomb", "hydropump", "spikes"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "poisonsting", "doubleedge"]},
 		],
 		tier: "UU",
 	},
 	shuckle: {
-		randomBattleMoves: ["toxic", "wrap", "rest", "encore", "protect"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	heracross: {
-		randomBattleMoves: ["megahorn", "rest", "sleeptalk", "earthquake"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "leer", "seismictoss"]},
 		],
 		tier: "OU",
 	},
 	sneasel: {
-		randomBattleMoves: ["dynamicpunch", "hiddenpowerfighting", "shadowball", "return", "reflect"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["scratch", "leer", "moonlight"]},
 		],
 		tier: "NU",
 	},
 	teddiursa: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["scratch", "leer", "sweetscent"]},
 		],
 		tier: "LC",
 	},
 	ursaring: {
-		randomBattleMoves: ["curse", "return", "rest", "sleeptalk", "earthquake", "zapcannon", "firepunch"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "BL",
 	},
 	slugma: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	magcargo: {
-		randomBattleMoves: ["curse", "rockslide", "earthquake", "fireblast", "rest"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	swinub: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "whirlwind"]},
 		],
 		tier: "LC",
 	},
 	piloswine: {
-		randomBattleMoves: ["earthquake", "blizzard", "curse", "roar", "rest", "sleeptalk", "icebeam"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "UU",
 	},
 	corsola: {
-		randomBattleMoves: ["mirrorcoat", "surf", "curse", "ancientpower", "recover", "toxic"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	remoraid: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["watergun", "amnesia"]},
 			{"generation": 2, "level": 5, "moves":["watergun", "mist"]},
@@ -1151,11 +4492,39 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	octillery: {
-		randomBattleMoves: ["flamethrower", "surf", "octazooka", "return", "icebeam"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NU",
 	},
 	delibird: {
-		randomBattleMoves: ["spikes", "icebeam", "toxic", "hiddenpowerflying", "thief", "curse", "sleeptalk", "rest"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["present", "payday"]},
 			{"generation": 2, "level": 5, "moves":["present", "spikes"]},
@@ -1163,27 +4532,99 @@ exports.BattleFormatsData = {
 		tier: "NU",
 	},
 	mantine: {
-		randomBattleMoves: ["hydropump", "confuseray", "toxic", "haze"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "bubble", "gust"]},
 		],
 		tier: "NU",
 	},
 	skarmory: {
-		randomBattleMoves: ["whirlwind", "drillpeck", "rest", "curse"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["leer", "furycutter"]},
 		],
 		tier: "OU",
 	},
 	houndour: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "LC",
 	},
 	houndoom: {
-		randomBattleMoves: ["crunch", "fireblast", "pursuit", "counter", "rest", "sleeptalk", "sunnyday", "solarbeam"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "BL",
 	},
 	phanpy: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "growl", "absorb"]},
 			{"generation": 2, "level": 5, "moves":["tackle", "growl", "encore"]},
@@ -1191,77 +4632,261 @@ exports.BattleFormatsData = {
 		tier: "LC",
 	},
 	donphan: {
-		randomBattleMoves: ["bodyslam", "hiddenpowerrock", "rapidspin", "curse", "encore", "rest", "roar", "earthquake"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "BL",
 	},
 	stantler: {
-		randomBattleMoves: ["confuseray", "return", "reflect", "lightscreen", "earthquake"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["tackle", "safeguard"]},
 		],
 		tier: "NU",
 	},
 	smeargle: {
-		randomBattleMoves: ["spiderweb", "protect", "disable", "batonpass", "spore", "bellydrum", "agility", "swordsdance", "recover", "encore", "superfang", "spikes", "destinybond", "mirrorcoat"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "BL",
 	},
 	miltank: {
-		randomBattleMoves: ["healbell", "milkdrink", "growl", "bodyslam"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "gender": "F", "moves":["tackle", "growl", "megakick"]},
 		],
 		tier: "OU",
 	},
 	raikou: {
-		randomBattleMoves: ["thunder", "thunderbolt", "roar", "reflect", "rest", "sleeptalk", "hiddenpowerice", "hiddenpowerwater"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 40, "shiny": true, "moves":["leer", "thundershock", "roar", "quickattack"]},
 		],
 		tier: "OU",
 	},
 	entei: {
-		randomBattleMoves: ["fireblast", "flamethrower", "solarbeam", "sunnyday", "return", "rest"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 40, "shiny": true, "moves":["leer", "ember", "roar", "firespin"]},
 		],
 		tier: "BL",
 	},
 	suicune: {
-		randomBattleMoves: ["surf", "toxic", "roar", "rest", "sleeptalk", "icebeam"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 40, "shiny": true, "moves":["leer", "watergun", "roar", "gust"]},
 		],
 		tier: "OU",
 	},
 	larvitar: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["bite", "leer", "rage"]},
 		],
 		tier: "LC",
 	},
 	pupitar: {
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "NFE",
 	},
 	tyranitar: {
-		randomBattleMoves: ["rockslide", "roar", "curse", "rest", "dynamicpunch", "fireblast", "pursuit", "crunch"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		tier: "OU",
 	},
 	lugia: {
-		randomBattleMoves: ["curse", "aeroblast", "earthquake", "recover", "rest"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 40, "shiny": true, "moves":["aeroblast", "safeguard", "gust", "recover"]},
 		],
 		tier: "Uber",
 	},
 	hooh: {
-		randomBattleMoves: ["curse", "recover", "return", "sacredfire", "shadowball", "whirlwind", "thunderbolt", "earthquake"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 40, "shiny": true, "moves":["sacredfire", "safeguard", "gust", "recover"]},
 		],
 		tier: "Uber",
 	},
 	celebi: {
-		randomBattleMoves: ["healbell", "recover", "leechseed", "psychic"],
+		randomSet1: {
+			chance: 12,
+			item: ["leftovers", "berry", ""],
+			baseMove1: "tackle", baseMove2: "growl",
+			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
+			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+		},
+		randomSet2: {
+			chance: 16,
+			item: ["charcoal"],
+			baseMove1: "earthquake",
+			fillerMoves1: ["psychic", "psychic", "icebeam"],
+			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
+			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+		},
 		eventPokemon: [
 			{"generation": 2, "level": 5, "moves":["leechseed", "confusion", "healbell", "recover"]},
 		],

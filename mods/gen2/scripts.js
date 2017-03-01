@@ -542,7 +542,7 @@ exports.BattleScripts = {
 		let pokemonPool = [];
 		for (let id in this.data.FormatsData) {
 			// FIXME: Not ES-compliant
-			if (n++ > 251 || !this.data.FormatsData[id].randomBattleMoves) continue;
+			if (n++ > 251 || !this.data.FormatsData[id].randomSet1) continue;
 			pokemonPool.push(id);
 		}
 
@@ -618,196 +618,36 @@ exports.BattleScripts = {
 		template = this.getTemplate(template);
 		if (!template.exists) template = this.getTemplate('unown');
 
-		let movePool = template.randomBattleMoves.slice();
+		let randomSetNumber = 0;
+		let set = template.randomSet1;
 		let moves = [];
-		let hasType = {};
-		hasType[template.types[0]] = true;
-		if (template.types[1]) hasType[template.types[1]] = true;
 		let hasMove = {};
-		let counter = {};
-		let setupType = '';
-		let item = 'leftovers';
+		let item = '';
 		let ivs = {hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30};
 
-		// Moves that boost Attack:
-		let PhysicalSetup = {
-			swordsdance:1, sharpen:1,
-		};
-		// Moves which boost Special Attack:
-		let SpecialSetup = {
-			growth:1,
-		};
-
-		do {
-			// Keep track of all moves we have:
-			hasMove = {};
-			for (let k = 0; k < moves.length; k++) {
-				if (moves[k].substr(0, 11) === 'hiddenpower') {
-					hasMove['hiddenpower'] = true;
-				} else {
-					hasMove[moves[k]] = true;
-				}
-			}
-
-			// Choose next 4 moves from learnset/viable moves and add them to moves list:
-			while (moves.length < 4 && movePool.length) {
-				let moveid = this.sampleNoReplace(movePool);
-				if (moveid.substr(0, 11) === 'hiddenpower') {
-					if (hasMove['hiddenpower']) continue;
-					hasMove['hiddenpower'] = true;
-				} else {
-					hasMove[moveid] = true;
-				}
-				moves.push(moveid);
-			}
-
-			counter = {Physical: 0, Special: 0, Status: 0, physicalsetup: 0, specialsetup: 0};
-			for (let k = 0; k < moves.length; k++) {
-				let move = this.getMove(moves[k]);
-				let moveid = move.id;
-				if (!move.damage && !move.damageCallback) {
-					counter[move.category]++;
-				}
-				if (PhysicalSetup[moveid]) {
-					counter['physicalsetup']++;
-				}
-				if (SpecialSetup[moveid]) {
-					counter['specialsetup']++;
-				}
-			}
-
-			if (counter['specialsetup']) {
-				setupType = 'Special';
-			} else if (counter['physicalsetup']) {
-				setupType = 'Physical';
-			}
-
-			for (let k = 0; k < moves.length; k++) {
-				let moveid = moves[k];
-				let move = this.getMove(moveid);
-				let rejected = false;
-				if (moveid.substr(0, 11) === 'hiddenpower') {
-					// Check for hidden power DVs
-					let HPdvs = this.getType(move.type).HPdvs;
-					for (let dv in HPdvs) {
-						ivs[dv] = HPdvs[dv] * 2;
-					}
-					moveid = 'hiddenpower';
-				}
-				if (!template.essentialMove || moveid !== template.essentialMove) {
-					switch (moveid) {
-					// bad after setup
-					case 'seismictoss': case 'nightshade':
-						if (setupType) rejected = true;
-						break;
-					// bit redundant to have both
-					case 'flamethrower':
-						if (hasMove['fireblast']) rejected = true;
-						break;
-					case 'fireblast':
-						if (hasMove['flamethrower']) rejected = true;
-						break;
-					case 'icebeam':
-						if (hasMove['blizzard']) rejected = true;
-						break;
-					// Hydropump and surf are both valid options, just avoid one with eachother.
-					case 'hydropump':
-						if (hasMove['surf']) rejected = true;
-						break;
-					case 'surf':
-						if (hasMove['hydropump']) rejected = true;
-						break;
-					case 'petaldance': case 'solarbeam':
-						if (hasMove['megadrain'] || hasMove['razorleaf']) rejected = true;
-						break;
-					case 'megadrain':
-						if (hasMove['razorleaf']) rejected = true;
-						break;
-					case 'thunder':
-						if (hasMove['thunderbolt']) rejected = true;
-						break;
-					case 'thunderbolt':
-						if (hasMove['thunder']) rejected = true;
-						break;
-					case 'bonemerang':
-						if (hasMove['earthquake']) rejected = true;
-						break;
-					case 'rest':
-						if (hasMove['recover'] || hasMove['softboiled'] || hasMove['roar']) rejected = true;
-						break;
-					case 'softboiled':
-						if (hasMove['recover']) rejected = true;
-						break;
-					case 'sharpen':
-					case 'swordsdance':
-						if (counter['Special'] > counter['Physical'] || hasMove['slash'] || !counter['Physical'] || hasMove['growth']) rejected = true;
-						break;
-					case 'growth':
-						if (counter['Special'] < counter['Physical'] || hasMove['swordsdance'] || hasMove['amnesia']) rejected = true;
-						break;
-					case 'doubleedge':
-						if (hasMove['bodyslam']) rejected = true;
-						break;
-					case 'mimic':
-						if (hasMove['mirrormove']) rejected = true;
-						break;
-					case 'superfang':
-						if (hasMove['bodyslam']) rejected = true;
-						break;
-					case 'rockslide':
-						if (hasMove['earthquake'] && hasMove['bodyslam'] && hasMove['hyperbeam']) rejected = true;
-						break;
-					case 'bodyslam':
-						if (hasMove['thunderwave']) rejected = true;
-						break;
-					case 'megakick':
-						if (hasMove['bodyslam']) rejected = true;
-						break;
-					case 'eggbomb':
-						if (hasMove['hyperbeam']) rejected = true;
-						break;
-					case 'triattack':
-						if (hasMove['doubleedge']) rejected = true;
-						break;
-					case 'supersonic':
-						if (hasMove['confuseray']) rejected = true;
-						break;
-					case 'poisonpowder':
-						if (hasMove['toxic'] || counter['Status'] > 1) rejected = true;
-						break;
-					case 'stunspore':
-						if (hasMove['sleeppowder'] || counter['Status'] > 1) rejected = true;
-						break;
-					case 'sleeppowder':
-						if (hasMove['stunspore'] || counter['Status'] > 2) rejected = true;
-						break;
-					case 'toxic':
-						if (hasMove['sleeppowder'] || hasMove['stunspore'] || counter['Status'] > 1) rejected = true;
-						break;
-					} // End of switch for moveid
-				}
-				if (rejected && movePool.length) {
-					moves.splice(k, 1);
-					break;
-				}
-				counter[move.category]++;
-			} // End of for
-		} while (moves.length < 4 && movePool.length);
-
-		// Add specific items.
-		switch (template.species) {
-		case 'Cubone':
-		case 'Marowak':
-			item = 'thickclub';
-			ivs.atk = 26;
-			break;
-		case 'Pikachu':
-			item = 'lightball';
-			break;
-		case 'Ditto':
-			item = 'metalpowder';
-			break;
+		// Choose one of the available sets (up to four) at random
+		if (template.randomSet2) {
+			randomSetNumber = this.random(15);
+			if (randomSetNumber < template.randomSet1.chance) set = template.randomSet1;
+			else if (randomSetNumber < template.randomSet2.chance) set = template.randomSet2;
+			else if (template.randomSet3 && randomSetNumber < template.randomSet1.chance) set = template.randomSet3;
+			else if (template.randomSet4) set = template.randomSet4;
 		}
+
+		// Add the base moves (between 0 and 4) of the chosen set
+		if (set.baseMove1 && moves.length < 4) moves.push(set.baseMove1);
+		if (set.baseMove2 && moves.length < 4) moves.push(set.baseMove2);
+		if (set.baseMove3 && moves.length < 4) moves.push(set.baseMove3);
+		if (set.baseMove4 && moves.length < 4) moves.push(set.baseMove4);
+
+		// Add the filler moves (between 0 and 4) of the chosen set
+		if (set.fillerMoves1 && moves.length < 4) this.randomMove(moves, hasMove, set.fillerMoves1);
+		if (set.fillerMoves2 && moves.length < 4) this.randomMove(moves, hasMove, set.fillerMoves2);
+		if (set.fillerMoves3 && moves.length < 4) this.randomMove(moves, hasMove, set.fillerMoves3);
+		if (set.fillerMoves4 && moves.length < 4) this.randomMove(moves, hasMove, set.fillerMoves4);
+
+		// Add the held item
+		if (set.item) item = set.item[this.random(set.item.length)];
 
 		let levelScale = {
 			LC: 96,
@@ -817,11 +657,8 @@ exports.BattleScripts = {
 			OU: 79,
 			Uber: 74,
 		};
-		// Hollistic judgment.
 		let customScale = {
-			Caterpie: 99, Kakuna: 99, Magikarp: 99, Metapod: 99, Weedle: 99, Pichu: 99, Smoochum: 99,
-			Clefairy: 95, "Farfetch'd": 99, Igglybuff: 99, Jigglypuff: 99, Ditto: 99, Mewtwo: 70,
-			Dragonite: 85, Cloyster: 83, Staryu: 90,
+			Caterpie: 99, Kakuna: 99, Magikarp: 99, Metapod: 99, Weedle: 99,
 		};
 		let level = levelScale[template.tier] || 90;
 		if (customScale[template.name]) level = customScale[template.name];
@@ -838,4 +675,24 @@ exports.BattleScripts = {
 			gender: template.gender ? template.gender : 'M',
 		};
 	},
+	randomMove: function (moves, hasMove, fillerMoves) {
+		let index = 0;
+		let done = false;
+
+		do {
+			index = this.random(fillerMoves.length);
+			if (!hasMove[fillerMoves[index]] && !(hasMove[fillerMoves[index].substr(0, 11)])) {
+				// push the move if not yet known
+				moves.push(fillerMoves[index]);
+				done = true;
+
+				if (fillerMoves[index].substr(0, 11) === 'hiddenpower') {
+					// only one hiddenpower is allowed
+					hasMove['hiddenpower'] = true;
+				} else {
+					hasMove[fillerMoves[index]] = true;
+				}
+			}
+		} while (!done);
+	}
 };
