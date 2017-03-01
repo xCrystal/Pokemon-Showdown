@@ -3149,20 +3149,26 @@ exports.BattleFormatsData = {
 	},
 	zapdos: {
 		randomSet1: {
-			chance: 12,
-			item: ["leftovers", "berry", ""],
-			baseMove1: "tackle", baseMove2: "growl",
-			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
-			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+			chance: 8,
+			item: ["leftovers"],
+			baseMove1: "rest", baseMove2: "sleeptalk",
+			fillerMoves1: ["thunderbolt", "thunderbolt", "thunder"],
+			fillerMoves2: ["hiddenpowerice", "hiddenpowerice", "hiddenpowerice", "drillpeck", "drillpeck", "hiddenpowergrass", "hiddenpowerwater"],
 		},
 		randomSet2: {
-			chance: 16,
-			item: ["charcoal"],
-			baseMove1: "earthquake",
-			fillerMoves1: ["psychic", "psychic", "icebeam"],
-			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
-			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+			chance: 13,
+			item: ["leftovers", "leftovers", "mintberry"],
+			baseMove1: "thunderbolt", baseMove2: "rest",
+			fillerMoves1: ["thunderwave", "thunderwave", "toxic", "drillpeck", "hiddenpowerice", "hiddenpowerice"],
+			fillerMoves2: ["lightscreen", "reflect", "reflect", "whirlwind", "drillpeck", "hiddenpowerice", "hiddenpowerice"],
 		},
+		randomSet3: {
+			chance: 16,
+			item: ["leftovers", "leftovers", "miracleberry"],
+			baseMove1: "thunderbolt", baseMove2: "drillpeck",
+			fillerMoves1: ["hiddenpowerice", "hiddenpowerice", "hiddenpowerwater", "hiddenpowerwater", "hiddenpowergrass"],
+			fillerMoves2: ["thunderwave", "thunderwave", "thunderwave", "toxic", "lightscreen", "reflect", "thunder", "rest"],
+		},		
 		eventPokemon: [
 			{"generation": 2, "level": 50, "shiny": true, "moves":["thunderwave", "agility", "detect", "drillpeck"]},
 		],
