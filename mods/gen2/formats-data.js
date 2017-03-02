@@ -40,40 +40,36 @@ exports.BattleFormatsData = {
 		},
 		tier: "NFE",
 	},
-	venusaur: {
-		randomSet1: {
-			chance: 5,
+	venusaur: { //done
+		randomSet1: { //leech seed tank
+			chance: 3,
 			item: ["leftovers"],
 			baseMove1: "leechseed", baseMove2: "synthesis",
-			fillerMoves1: ["razorleaf", "razorleaf", "hiddenpowerice"],
-			fillerMoves3: ["sleeppowder", "sleeppowder", "sleeppowder", "reflect", "lightscreen"],
+			fillerMoves1: ["razorleaf", "razorleaf", "hiddenpowerice"], //leaf for pp&stab, hpice to deter grasses from switching into seed
+			fillerMoves2: ["sleeppowder", "sleeppowder", "sleeppowder", "reflect", "lightscreen","toxic"] //misc support moves
 		},
-		randomSet2: {
-			chance: 8,
-			item: ["leftovers"],
-			fillerMoves1: ["razorleaf", "gigadrain", "gigadrain"],
-			fillerMoves2: ["hiddenpowerice", "hiddenpowerice", "hiddenpowerfire", "bodyslam"],
-			fillerMoves3: ["sleeppowder", "synthesis", "leechseed", "reflect", "lightscreen"],
-			fillerMoves4: ["sleeppowder", "synthesis", "leechseed"],
 
-		randomSet3: {
-			chance: 11,
+		//removed a tanky set here to keep things in the 4-moveset limit. it didn't seem to do anything different from the above set anyway.
+
+		randomSet2: { // tanky sd
+			chance: 6,
 			item: ["leftovers"],
-			baseMove1: "swordsdance", baseMove2: "gigadrain", baseMove3: "bodyslam",
-			fillerMoves1: ["sleeppowder", "sleeppowder", "synthesis", "ancientpower"],
+			baseMove1: "swordsdance", baseMove2: "sleeppowder",
+			fillermoves1: ["bodyslam","return"], // pseudo-STAB
+			fillerMoves2: ["synthesis","gigadrain","hiddenpowerghost","hiddenpowerground","leechseed"] // coverage or healing
 		},
-		randomSet4: {
-			chance: 14,
+		randomSet3: { //sunnybeamer :)
+			chance: 9,
 			item: ["leftovers"],
 			baseMove1: "solarbeam", baseMove2: "sunnyday", baseMove3: "hiddenpowerfire",
-			fillerMoves1: ["sleeppowder", "synthesis", "synthesis"],
+			fillerMoves1: ["sleeppowder", "synthesis", "synthesis","growth","leechseed"]
 		},
-		randomSet5: {
+		randomSet5: { //growth! (also the main set)
 			chance: 16,
 			item: ["leftovers"],
 			baseMove1: "growth", baseMove2: "gigadrain",
 			fillerMoves1: ["hiddenpowerice", "hiddenpowerice", "hiddenpowerice", "hiddenpowerfire", "hiddenpowerwater"],
-			fillerMoves2: ["sleeppowder", "sleeppowder", "synthesis"],
+			fillerMoves2: ["sleeppowder", "sleeppowder", "synthesis","leechseed"] // I just like putting leech seed everywhere to force switches & shit
 		},
 		eventPokemon: [
 			{"generation": 2, "level": 40, "gender": "M", "shiny": true, "moves":["poisonpowder", "sleeppowder", "razorleaf", "sweetscent"]},
@@ -119,21 +115,22 @@ exports.BattleFormatsData = {
 		},
 		tier: "NFE",
 	},
-	charizard: {
-		randomSet1: {
+	charizard: {//done
+		randomSet1: { //physical sweeper
 			chance: 12,
-			item: ["leftovers", "berry", ""],
-			baseMove1: "tackle", baseMove2: "growl",
-			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
-			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+			item: ["leftovers","leftovers","leftovers","miracleberry"], 
+			baseMove1: "earthquake", // it will either be the pseudo-STAB or the coverage move
+			fillerMoves1: ["fireblast", "fireblast", "flamethrower"],
+			fillerMoves2: ["swordsdance", "bellydrum"], //equal probability - bd is iconic & fun but sd is probably more likely to be useful in randbats
+			fillerMoves3: ["rockslide","rockslide","rockslide","hiddenpowerrock","hiddenpowerflying","return"] // rockslide/hprock/ap is the coverage option, hpfly/return the (pseudo)-stab 
 		},
-		randomSet2: {
+		randomSet2: { //special attacker (more shitty, more rare)
 			chance: 16,
-			item: ["charcoal"],
-			baseMove1: "earthquake",
-			fillerMoves1: ["psychic", "psychic", "icebeam"],
-			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
-			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+			item: ["leftovers","leftovers","leftovers","charcoal","miracleberry"],
+			baseMove1: "sunnyday",
+			fillerMoves1: ["fireblast", "fireblast", "flamethrower"],
+			fillerMoves2: ["hiddenpowergrass","hiddenpowergrass","hiddenpowergrass","hiddenpowerelectric"], //water coverage
+			fillerMoves3: ["earthquake","earthquake","dynamicpunch","submission","rockslide","ancientpower"] //coverage against rocks, special tanks, or fellow fires
 		},
 		eventPokemon: [
 			{"generation": 2, "level": 40, "gender": "M", "shiny": true, "moves":["rage", "scaryface", "flamethrower", "wingattack"]},
@@ -179,21 +176,22 @@ exports.BattleFormatsData = {
 		},
 		tier: "NFE",
 	},
-	blastoise: {
-		randomSet1: {
+	blastoise: {//done
+		randomSet1: { //just a tank
 			chance: 12,
-			item: ["leftovers", "berry", ""],
-			baseMove1: "tackle", baseMove2: "growl",
-			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
-			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+			item: ["leftovers","leftovers","leftovers","mintberry"],
+			baseMove1: "rest",
+			fillerMoves1: ["surf", "surf", "hydropump"],
+			fillerMoves2: ["icebeam","blizzard","zapcannon"],
+			fillerMoves3: ["earthquake","earthquake","dynamicpunch","raindance","sleeptalk"]
 		},
-		randomSet2: {
+		randomSet2: { //countercoat
 			chance: 16,
-			item: ["charcoal"],
-			baseMove1: "earthquake",
-			fillerMoves1: ["psychic", "psychic", "icebeam"],
-			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
-			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+			item: ["leftovers","leftovers","leftovers","mintberry"],
+			baseMove1: "rest",
+			fillerMoves1: ["mirrorcoat","mirrorcoat","mirrorcoat","counter"],
+			fillerMoves2: ["surf", "surf", "hydropump"],
+			fillerMoves3: ["icebeam","blizzard"] //the reason this had to be a separate set: zap cannon is incompatible with either countercoat move
 		},
 		eventPokemon: [
 			{"generation": 2, "level": 40, "gender": "M", "shiny": true, "moves":["watergun", "bite", "rapidspin", "protect"]},
@@ -236,21 +234,13 @@ exports.BattleFormatsData = {
 		},
 		tier: "NFE",
 	},
-	butterfree: {
-		randomSet1: {
-			chance: 12,
-			item: ["leftovers", "berry", ""],
-			baseMove1: "tackle", baseMove2: "growl",
-			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
-			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
-		},
-		randomSet2: {
+	butterfree: {//done
+		randomSet1: {//double powder
 			chance: 16,
-			item: ["charcoal"],
-			baseMove1: "earthquake",
-			fillerMoves1: ["psychic", "psychic", "icebeam"],
-			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
-			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+			item: ["leftovers"],
+			baseMove1: "sleeppowder", baseMove2: "stunspore",
+			fillerMoves1: ["psychic", "psychic", "psywave"], //lol psywave. but really tho how else this thing gonna do dmg?
+			fillerMoves2: ["gigadrain", "nightmare"]
 		},
 		tier: "NU",
 	},
@@ -290,21 +280,19 @@ exports.BattleFormatsData = {
 		},
 		tier: "NFE",
 	},
-	beedrill: {
-		randomSet1: {
-			chance: 12,
-			item: ["leftovers", "berry", ""],
-			baseMove1: "tackle", baseMove2: "growl",
-			fillerMoves1: ["watergun", "hiddenpowerfire", "hiddenpowerfire"],
-			fillerMoves2: ["hiddenpowerfire", "hiddenpowerfire", "hiddenpowergrass", "hiddenpowergrass", "thundershock"]
+	beedrill: {//done
+		randomSet1: {//swords dance
+			chance: 15,
+			item: ["leftovers"],
+			baseMove1: "swordsdance", baseMove2: "sludgebomb",
+			fillerMoves1: ["hiddenpowerghost", "hiddenpowerground", "hiddenpowerground", "hiddenpowerrock","hiddenpowerbug"], //hp rock for randbats threats like crobat/aerodactyl/fellow bug-psns
+			fillerMoves2: ["agility", "substitute"]
 		},
-		randomSet2: {
+		randomSet2: {//swords dance with twineedle lol
 			chance: 16,
-			item: ["charcoal"],
-			baseMove1: "earthquake",
-			fillerMoves1: ["psychic", "psychic", "icebeam"],
-			fillerMoves2: ["recover", "reflect", "psychic", "psychic"],
-			fillerMoves3: ["leer", "rockslide", "absorb", "psychic", "psychic"]
+			item: ["leftovers"],
+			baseMove1: "swordsdance", baseMove2: "sludgebomb", baseMove3: "twineedle",
+			fillerMoves1: ["hiddenpowerghost", "hiddenpowerground", "hiddenpowerground", "hiddenpowerrock"], //a separate set solely so that hp bug + twineedle don't end up on the same set
 		},
 		tier: "NU",
 	},
